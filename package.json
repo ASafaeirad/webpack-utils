@@ -2,14 +2,16 @@
   "name": "@frontendmonster/webpack-utils",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "author": "frontendmonster <frontendmonster@gmail.com>",
   "description": "Useful utilities for webpack",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frontendmonster/webpack-utils.git"
   },
-  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "prebuild": "npm run clean",
